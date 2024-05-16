@@ -16,9 +16,17 @@ const Footer = () => {
 
           <div className="flex flex-col gap-3 mt-3">
             <p className="font-semibold">Contact</p>
-            <p>5652 Liberty Manor Circle Woodbridge, VA 22193</p>
-            <p>support@crystalclearbilling.com</p>
-            <p>+1 234 3456</p>
+            <a href="https://maps.app.goo.gl/VmpLQ84eNetT4JDx5" target="_blank">
+              {" "}
+              <p>5652 Liberty Manor Circle Woodbridge, VA 22193</p>
+            </a>
+            <a href="mailto:support@crystalclearbilling.com">
+              {" "}
+              <p>support@crystalclearbilling.com</p>
+            </a>
+            <a href="tel:+12343456">
+              <p>+1 234 3456</p>
+            </a>
           </div>
         </div>
         <div className="flex flex-row justify-between bg-gray-500 px-20 py-5">

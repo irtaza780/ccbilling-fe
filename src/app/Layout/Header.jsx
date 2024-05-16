@@ -12,19 +12,28 @@ const Header = () => {
 
           <div className="flex flex-col text-sm md:text-base">
             <p className="text-gray-500 mb-2 md:mb-0">Call us now</p>
-            <p className="font-semibold">+1 234 3456</p>
+            <a href="tel:+12343456">
+              {" "}
+              <p className="font-semibold">+1 234 3456</p>
+            </a>
           </div>
 
           <div className="flex flex-col ml-0 md:ml-8 mt-4 md:mt-0">
             <p className="text-gray-500 mb-2 md:mb-0">Email us at</p>
-            <p className="font-semibold">support@crystalclearbilling.com</p>
+            <a href="mailto:support@crystalclearbilling.com">
+              {" "}
+              <p className="font-semibold">support@crystalclearbilling.com</p>
+            </a>
           </div>
 
           <div className="flex flex-col ml-0 md:ml-8 mt-4 md:mt-0">
             <p className="text-gray-500 mb-2 md:mb-0">Find us at</p>
-            <p className="font-semibold">
-              5652 Liberty Manor Circle Woodbridge, VA 22193
-            </p>
+            <a href="https://maps.app.goo.gl/VmpLQ84eNetT4JDx5" target="_blank">
+              {" "}
+              <p className="font-semibold">
+                5652 Liberty Manor Circle Woodbridge, VA 22193
+              </p>
+            </a>
           </div>
         </div>
       </div>

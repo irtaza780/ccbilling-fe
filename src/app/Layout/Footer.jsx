@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="mt-10">
-        <div className="bg-primary text-white px-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-32 py-20 justify-items-center">
+        <div className="bg-primary text-white px-10 md:px-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-32 py-20 md:justify-items-center">
           <p className="font-bold text-lg">CRYSTAL CLEAR BILLING</p>
           <div className="flex flex-col gap-3 mt-3">
             <p className="font-semibold">Useful Links</p>

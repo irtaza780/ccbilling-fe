@@ -1,9 +1,26 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
     <>
       <div className="mt-10">
+        <div className="bg-primary text-white px-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-32 py-20 justify-items-center">
+          <p className="font-bold text-lg">CRYSTAL CLEAR BILLING</p>
+          <div className="flex flex-col gap-3 mt-3">
+            <p className="font-semibold">Useful Links</p>
+            <Link href="#">About Us</Link>
+            <Link href="#">Contact Us</Link>
+            <Link href="#">Services</Link>
+          </div>
+
+          <div className="flex flex-col gap-3 mt-3">
+            <p className="font-semibold">Contact</p>
+            <p>5652 Liberty Manor Circle Woodbridge, VA 22193</p>
+            <p>support@crystalclearbilling.com</p>
+            <p>+1 234 3456</p>
+          </div>
+        </div>
         <div className="flex flex-row justify-between bg-gray-500 px-20 py-5">
           <p className="text-white">Connect with us on social networks: </p>
 
@@ -72,10 +89,6 @@ const Footer = () => {
               ></path>
             </svg>
           </div>
-        </div>
-
-        <div className="bg-primary text-white">
-          <p>Test</p>
         </div>
       </div>
     </>

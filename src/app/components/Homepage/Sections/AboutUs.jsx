@@ -6,9 +6,9 @@ const AboutUs = () => {
       <div className="mt-10">
         <p className="text-xl font-bold text-center text-gray-800">About us</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-20 mx-32 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-20 mx-1 md:mx-32 mt-10">
           <img src="/about-us.jpg" alt="" />
-          <p>
+          <p> 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo
             tellus nec magna volutpat, vel ultricies dolor eleifend. Ut
             scelerisque euismod ligula, sit amet eleifend lacus facilisis eu.

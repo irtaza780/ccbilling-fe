@@ -18,18 +18,18 @@ const data = [
     body: " With our proficient billing experts and rigorous scrubbing process, we ensure the submission of clean claims. In the rare instance of rejections, our team promptly corrects the issues and resubmits the claims on the same day, maintaining a swift and efficient billing workflow",
   },
   {
-    title: "Error Free Charge Entry",
-    body: "To guarantee seamless claim submissions on the first attempt, we offer meticulous and error-free charge entry services. Your patients' demographic and charge information is collected by our team, and our skilled billers input charges daily to facilitate prompt claim processing.",
+    title: "Monitoring & Appeals",
+    body: "When a denial occurs, our A/R specialists diligently tackle the root cause to rectify the issue and ensure the owed payment is processed accordingly.",
   },
 
   {
-    title: "Real Time Insurance Verification",
-    body: "Ensuring a streamlined process and minimizing accounts receivable days, we meticulously confirm the insurance eligibility of each patient. This proactive approach helps prevent denials and facilitates a smoother billing process for you.",
+    title: "Telehealth Coding",
+    body: "All telehealth services you provide are meticulously coded and billed by us, encompassing every aspect of telehealth and telemedicine coding.",
   },
 
   {
-    title: "Claim Submission & Scrubbing",
-    body: " With our proficient billing experts and rigorous scrubbing process, we ensure the submission of clean claims. In the rare instance of rejections, our team promptly corrects the issues and resubmits the claims on the same day, maintaining a swift and efficient billing workflow",
+    title: "External Audits",
+    body: "Assisting medical practitioners, our medical coding auditor identifies errors in ICD-10 and CPT coding, recommending necessary modifications subsequent to a comprehensive analysis of coding charts",
   },
 ];
 

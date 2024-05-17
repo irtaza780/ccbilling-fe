@@ -12,17 +12,17 @@ const Header = () => {
 
           <div className="flex flex-col text-sm md:text-base">
             <p className="text-gray-500 mb-2 md:mb-0">Call us now</p>
-            <a href="tel:+12343456">
+            <a href="tel:+1 609 369 9071">
               {" "}
-              <p className="font-semibold">+1 234 3456</p>
+              <p className="font-semibold">+1 609 369 9071</p>
             </a>
           </div>
 
           <div className="flex flex-col ml-0 md:ml-8 mt-4 md:mt-0">
             <p className="text-gray-500 mb-2 md:mb-0">Email us at</p>
-            <a href="mailto:support@crystalclearbilling.com">
+            <a href="mailto:info@crystalclearbilling.com">
               {" "}
-              <p className="font-semibold">support@crystalclearbilling.com</p>
+              <p className="font-semibold">info@crystalclearbilling.com</p>
             </a>
           </div>
 

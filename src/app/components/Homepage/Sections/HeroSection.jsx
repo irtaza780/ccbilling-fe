@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div>
           <hr className="" />
           <h1 className="text-white text-2xl md:text-4xl lg:text-5xl font-bold mt-10">
-            Medical Billing
+            Credentialing Service
           </h1>
           <hr className="mt-10" />
         </div>

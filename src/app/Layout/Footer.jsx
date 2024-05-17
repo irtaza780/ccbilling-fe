@@ -20,16 +20,16 @@ const Footer = () => {
               {" "}
               <p>5652 Liberty Manor Circle Woodbridge, VA 22193</p>
             </a>
-            <a href="mailto:support@crystalclearbilling.com">
+            <a href="mailto:info@crystalclearbilling.com">
               {" "}
-              <p>support@crystalclearbilling.com</p>
+              <p>info@crystalclearbilling.com</p>
             </a>
-            <a href="tel:+12343456">
-              <p>+1 234 3456</p>
+            <a href="tel:+1 609 369 9071">
+              <p>+1 609 369 9071</p>
             </a>
           </div>
         </div>
-        <div className="flex flex-row justify-between bg-gray-500 px-20 py-5">
+        <div className="flex  flex-row justify-left items-center md:justify-between bg-gray-500 px-5 md:px-20 py-5">
           <p className="text-white">Connect with us on social networks: </p>
 
           <div className="flex flex-row gap-10">
